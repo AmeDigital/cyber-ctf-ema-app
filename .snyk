@@ -1,0 +1,6 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+# https://github.com/AmeDigital/ame-face-id-api
+# Remocao de verificacao de seguranca no CICD
+exclude:
+ global:
+   - app/
